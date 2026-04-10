@@ -49,7 +49,7 @@ public class Empresa {
         this.listaEmpleados=listaEmpleados;
     }
 
-    // Metodo Consultar Empleado
+    // Metodo Consultar Empleado Tarde
     public ArrayList<Empleado> consultarEmpleadosTarde(LocalTime horaEntradaEmpresa){
 
         ArrayList<Empleado> resultado = new ArrayList<>();
